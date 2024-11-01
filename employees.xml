@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<employees>
+   <employee id="emp001">
+      <name>John Doe</name>
+      <department>Engineering</department>
+      <role>Software Engineer</role>
+      <salary>85000</salary>
+      <hire_date>2018-06-15</hire_date>
+   </employee>
+   <employee id="emp002">
+      <name>Jane Smith</name>
+      <department>Marketing</department>
+      <role>Content Strategist</role>
+      <salary>70000</salary>
+      <hire_date>2019-07-01</hire_date>
+   </employee>
+   <employee id="emp003">
+      <name>Sam Johnson</name>
+      <department>Sales</department>
+      <role>Sales Manager</role>
+      <salary>95000</salary>
+      <hire_date>2017-09-25</hire_date>
+   </employee>
+   <employee id="emp004">
+      <name>Anna Brown</name>
+      <department>Human Resources</department>
+      <role>HR Specialist</role>
+      <salary>60000</salary>
+      <hire_date>2020-01-20</hire_date>
+   </employee>
+</employees>
