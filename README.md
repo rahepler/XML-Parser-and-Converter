@@ -14,12 +14,14 @@ Google Sheets Integration: Upload data directly to Google Sheets by entering the
 Convert Back to XML: After editing, convert the data back to XML format and download the file.
 
 📦 Installation
+
 Clone the Repository:
 
 bash
 Copy code
 git clone https://github.com/yourusername/xml-csv-editor.git
 cd xml-csv-editor
+
 Install Dependencies: This app requires Python 3.7+ and Streamlit. Install dependencies with:
 
 bash
@@ -34,6 +36,7 @@ streamlit run app.py
 Upload Your XML File:
 
 Upload an XML file to parse and display its data.
+
 Download Options:
 
 Download the parsed data as CSV or Excel for local use.
@@ -46,6 +49,7 @@ Click Upload to Google Sheets to push data to Google Sheets.
 Convert to XML:
 
 After any edits, click "Convert to XML" to download the data as an XML file again.
+
 📑 Google Sheets Setup
 To enable Google Sheets integration, follow these steps:
 
@@ -56,17 +60,21 @@ In APIs & Services > Credentials, click Create Credentials > Service Account.
 Download the JSON file containing your credentials.
 Share Your Google Sheet with the Service Account:
 Open your Google Sheet, click Share, and add the service account’s email (found in the JSON file) as an Editor.
+
 💡 Notes
 This project is intended to be basic and extendable. Use this as a foundation to add additional features or customize it to your needs.
 The app currently supports basic XML parsing. If you have more complex XML structures, consider extending the parsing logic.
 Google Sheets Integration: Ensure that the Google Sheets URL and credentials JSON file are correctly provided to avoid authentication errors.
+
 🌐 Future Improvements
 This is a simple, foundational project, but here are a few ways you could expand upon it:
 
 Advanced XML Parsing: Support for nested or more complex XML structures.
+
 Data Cleaning: Add features to edit and clean data within the app.
 Enhanced Google Sheets Integration: Add options to update specific rows/columns, or create new sheets dynamically.
 Authentication for Multiple Users: Implement user-specific Google Sheets authentication.
+
 🤝 Contributing
 Contributions, suggestions, and improvements are always welcome! Please open an issue or submit a pull request.
 
